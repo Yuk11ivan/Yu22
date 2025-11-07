@@ -7,11 +7,12 @@
     // 为每个缩略图添加点击事件
     thumbnails.forEach(thumbnail => {
         thumbnail.addEventListener('click', function() {
-            // 获取缩略图的图片路径
-            const imgSrc = this.getAttribute('data-img');
+            // 获取缩略图的图片路径并替换尺寸参数以获取高清图片
+            const thumbSrc = this.querySelector('img').src;
+            const mainImgSrc = thumbSrc.replace('&w=200&q=80', '&w=1200&q=80');
             
             // 更新主图片
-            mainProductImage.src = imgSrc;
+            mainProductImage.src = mainImgSrc;
             
             // 更新缩略图选中状态
             thumbnails.forEach(thumb => thumb.classList.remove('active'));

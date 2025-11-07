@@ -131,7 +131,7 @@ body {
 /* 英雄区域 */
 .hero {
     height: 80vh;
-    background-image: url('hero-bg.jpg');
+    background-image: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -404,7 +404,7 @@ body {
 /* 品牌故事 */
 .brand-story {
     padding: 100px 0;
-    background-image: url('brand-story.jpg');
+    background-image: url('https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
     background-size: cover;
     background-position: center;
     color: #fff;
