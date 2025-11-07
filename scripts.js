@@ -9,18 +9,18 @@
 
     // 模拟产品数据
     const products = [
-        { id: 1, name: '秋冬丝绒连衣裙', category: 'women', type: 'dresses', price: '¥16,800', image: 'images/new-dress-1.jpg' },
-        { id: 2, name: '高级定制西装', category: 'men', type: 'suits', price: '¥28,900', image: 'images/new-suit-1.jpg' },
-        { id: 3, name: '经典老花手袋', category: 'women', type: 'bags', price: '¥32,500', image: 'images/new-bag-1.jpg' },
-        { id: 4, name: '正装皮鞋', category: 'men', type: 'shoes', price: '¥9,800', image: 'images/new-shoes-1.jpg' },
-        { id: 5, name: '细高跟晚宴鞋', category: 'women', type: 'shoes', price: '¥8,600', image: 'images/bestseller-shoes-1.jpg' },
-        { id: 6, name: '真丝商务衬衫', category: 'men', type: 'shirts', price: '¥5,200', image: 'images/bestseller-shirt-1.jpg' },
-        { id: 7, name: '印花真丝连衣裙', category: 'women', type: 'dresses', price: '¥14,500', image: 'images/bestseller-dress-2.jpg' },
-        { id: 8, name: '商务休闲西装', category: 'men', type: 'suits', price: '¥23,500', image: 'images/bestseller-suit-2.jpg' },
-        { id: 9, name: '限量版走秀款连衣裙', category: 'women', type: 'dresses', price: '¥45,800', image: 'images/runway-dress-1.jpg' },
-        { id: 10, name: '设计师合作款西装', category: 'men', type: 'suits', price: '¥52,000', image: 'images/runway-suit-1.jpg' },
-        { id: 11, name: '秀场限定手袋', category: 'women', type: 'bags', price: '¥68,500', image: 'images/runway-bag-1.jpg' },
-        { id: 12, name: '创意总监系列高跟鞋', category: 'women', type: 'shoes', price: '¥15,800', image: 'images/runway-shoes-1.jpg' }
+        { id: 1, name: '秋冬丝绒连衣裙', category: 'women', type: 'dresses', price: '¥16,800', image: 'new-dress-1.jpg' },
+    { id: 2, name: '高级定制西装', category: 'men', type: 'suits', price: '¥28,900', image: 'new-suit-1.jpg' },
+    { id: 3, name: '经典老花手袋', category: 'women', type: 'bags', price: '¥32,500', image: 'new-bag-1.jpg' },
+    { id: 4, name: '正装皮鞋', category: 'men', type: 'shoes', price: '¥9,800', image: 'new-shoes-1.jpg' },
+    { id: 5, name: '细高跟晚宴鞋', category: 'women', type: 'shoes', price: '¥8,600', image: 'bestseller-shoes-1.jpg' },
+    { id: 6, name: '真丝商务衬衫', category: 'men', type: 'shirts', price: '¥5,200', image: 'bestseller-shirt-1.jpg' },
+    { id: 7, name: '印花真丝连衣裙', category: 'women', type: 'dresses', price: '¥14,500', image: 'bestseller-dress-2.jpg' },
+    { id: 8, name: '商务休闲西装', category: 'men', type: 'suits', price: '¥23,500', image: 'bestseller-suit-2.jpg' },
+    { id: 9, name: '限量版走秀款连衣裙', category: 'women', type: 'dresses', price: '¥45,800', image: 'runway-dress-1.jpg' },
+    { id: 10, name: '设计师合作款西装', category: 'men', type: 'suits', price: '¥52,000', image: 'runway-suit-1.jpg' },
+    { id: 11, name: '秀场限定手袋', category: 'women', type: 'bags', price: '¥68,500', image: 'runway-bag-1.jpg' },
+    { id: 12, name: '创意总监系列高跟鞋', category: 'women', type: 'shoes', price: '¥15,800', image: 'runway-shoes-1.jpg' }
     ];
 
     // 搜索功能实现

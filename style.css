@@ -131,7 +131,7 @@ body {
 /* 英雄区域 */
 .hero {
     height: 80vh;
-    background-image: url('../images/hero-bg.jpg');
+    background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -404,7 +404,7 @@ body {
 /* 品牌故事 */
 .brand-story {
     padding: 100px 0;
-    background-image: url('../images/brand-story.jpg');
+    background-image: url('brand-story.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
